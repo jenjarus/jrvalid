@@ -15,7 +15,6 @@ function validateForm(e) {
         if (oldErrorElem) {
             el.parentElement.classList.remove('error_input');
             oldErrorElem.parentElement.removeChild(oldErrorElem);
-            this.countErrors = 0;
         }
 
         if (val === "") {
