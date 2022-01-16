@@ -1,0 +1,4 @@
+.anim{opacity:0;overflow:hidden;transition:all 0.6s;transform:translate(0, 50px)}.anim.anim-show{opacity:1;overflow:visible;transform:translate(0, 0)}.anim-top{transform:translate(0, -50px)}.anim-bottom{transform:translate(0, 50px)}.anim-left{transform:translate(-50px, 0)}.anim-right{transform:translate(50px, 0)}
+
+
+/*# sourceMappingURL=jranim.min.css.map*/

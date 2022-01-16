@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./lib/favicon.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="JRValidate DEMO"/>
+    <title>JRValidate - DEMO</title>
+    <link rel="stylesheet" href="./dist/style.min.css">
+    <link rel="stylesheet" href="./lib/jranim.min.css">
+</head>
+<body>
+
+<div class="form_box anim anim-bottom">
+    <div class="title">Форма</div>
+    <form action="">
+        <div class="form_input">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text">
+        </div>
+        <div class="form_input">
+            <label for="lastname">Фамилия</label>
+            <input id="lastname" name="lastname" type="text">
+        </div>
+        <div class="form_input">
+            <label for="tel">Телефон</label>
+            <input id="tel" class="js-tel" name="tel" type="text">
+        </div>
+        <div class="form_input">
+            <label for="email">Почта</label>
+            <input id="email" class="js-email" name="email" type="text">
+        </div>
+        <button type="submit">Отправить</button>
+    </form>
+</div>
+
+<script src="./dist/script.min.js"></script>
+<script src="./lib/jranim.min.js"></script>
+<script>
+    JRAnim();
+</script>
+</body>
+</html>
